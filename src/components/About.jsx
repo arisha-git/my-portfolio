@@ -33,7 +33,7 @@ export default function About() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="relative"
         >
-          <div className="absolute -inset-3 bg-gradient-to-br from-violet-600/30 to-cyan-500/20 rounded-2xl blur-sm" />
+          <div className="absolute -inset-3 bg-gradient-to-br from-violet-700/30 to-purple-900/20 rounded-2xl blur-sm" />
           <img
             src={info.avatar}
             alt={info.name}

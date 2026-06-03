@@ -2,10 +2,10 @@ import { motion } from "framer-motion"
 import { skills } from "../data/content"
 
 const categoryColors = {
-  "AI / ML":  "border-violet-500/40 text-violet-400",
-  "Frontend": "border-cyan-500/40 text-cyan-400",
-  "Backend":  "border-lime-500/40 text-lime-400",
-  "DevOps":   "border-pink-500/40 text-pink-400",
+  "AI / ML":  "border-violet-400/40 text-violet-400",
+  "Frontend": "border-purple-400/40 text-purple-400",
+  "Backend":  "border-fuchsia-400/40 text-fuchsia-400",
+  "DevOps":   "border-violet-300/40 text-violet-300",
 }
 
 export default function Skills() {

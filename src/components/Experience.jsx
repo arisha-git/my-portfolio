@@ -23,7 +23,7 @@ export default function Experience() {
             transition={{ delay: i * 0.1 }}
             className="relative"
           >
-            <div className="absolute -left-11 top-1 w-3 h-3 rounded-full bg-gradient-to-br from-violet-500 to-cyan-400 ring-4 ring-[#0a0a0f]" />
+            <div className="absolute -left-11 top-1 w-3 h-3 rounded-full bg-gradient-to-br from-violet-400 to-purple-700 ring-4 ring-[#0d0a1a]" />
 
             <span className="text-xs text-violet-400 font-medium uppercase tracking-widest">
               {job.period}
@@ -34,7 +34,7 @@ export default function Experience() {
             <ul className="space-y-2">
               {job.bullets.map((b) => (
                 <li key={b} className="text-zinc-400 text-sm leading-relaxed flex gap-2">
-                  <span className="text-violet-400 mt-0.5">›</span>
+                  <span className="text-violet-400 mt-0.5"></span>
                   {b}
                 </li>
               ))}

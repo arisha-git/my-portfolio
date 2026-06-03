@@ -6,8 +6,8 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative overflow-hidden">
       {/* Background glow blobs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-600/20 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/15 rounded-full blur-3xl pointer-events-none" />
+<div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-700/20 rounded-full blur-3xl pointer-events-none" />
+<div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-900/25 rounded-full blur-3xl pointer-events-none" />
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -42,7 +42,7 @@ export default function Hero() {
             href={info.github}
             target="_blank"
             rel="noreferrer"
-            className="px-6 py-3 border border-zinc-700 rounded-full text-zinc-300 hover:border-zinc-400 hover:text-white transition-all flex items-center gap-2"
+            className="px-6 py-3 bg-gradient-to-r from-violet-700 to-purple-500 rounded-full font-medium text-white hover:opacity-90 transition-opacity"
           >
             <FiGithub size={16} />
             GitHub
@@ -52,7 +52,7 @@ export default function Hero() {
             href={info.linkedin}
             target="_blank"
             rel="noreferrer"
-            className="px-6 py-3 border border-zinc-700 rounded-full text-zinc-300 hover:border-zinc-400 hover:text-white transition-all flex items-center gap-2"
+            className="px-6 py-3 border border-violet-800 rounded-full text-violet-300 hover:border-violet-500 hover:text-white transition-all flex items-center gap-2"
           >
             <FiLinkedin size={16} />
             LinkedIn

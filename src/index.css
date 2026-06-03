@@ -6,21 +6,21 @@
   --font-sans: "DM Sans", sans-serif;
   --font-display: "Syne", sans-serif;
 
-  --color-brand-violet: #7C3AED;
-  --color-brand-cyan:   #06B6D4;
-  --color-brand-lime:   #84CC16;
-  --color-brand-pink:   #EC4899;
+  --color-brand-violet: #6D28D9;
+  --color-brand-purple: #7C3AED;
+  --color-brand-light:  #A78BFA;
+  --color-brand-soft:   #DDD6FE;
 }
 
 html { scroll-behavior: smooth; }
 
 body {
-  background-color: #0a0a0f;
-  color: #e2e2e8;
+  background-color: #0d0a1a;
+  color: #e9e4f0;
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #7C3AED, #06B6D4, #84CC16);
+  background: linear-gradient(135deg, #A78BFA, #7C3AED, #6D28D9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

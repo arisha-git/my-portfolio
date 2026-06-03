@@ -5,7 +5,7 @@ export const projects = [
     tech: ["React", "Python", "OpenAI API"],
     github: "https://github.com/you/project",
     live: "https://yourproject.com",
-    color: "from-violet-600 to-cyan-500",
+    color: "from-violet-600 to-purple-400",
   },
   {
     title: "Project Two",
@@ -13,7 +13,7 @@ export const projects = [
     tech: ["Next.js", "FastAPI", "PostgreSQL"],
     github: "https://github.com/you/project2",
     live: "",
-    color: "from-cyan-500 to-lime-500",
+    color: "from-purple-500 to-fuchsia-600",
   },
   {
     title: "Project Three",
@@ -21,7 +21,7 @@ export const projects = [
     tech: ["PyTorch", "LangChain", "Docker"],
     github: "https://github.com/you/project3",
     live: "",
-    color: "from-pink-500 to-violet-600",
+    color: "from-fuchsia-600 to-violet-800",
   },
 ]
 
