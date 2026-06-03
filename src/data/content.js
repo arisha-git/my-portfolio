@@ -26,10 +26,51 @@ export const projects = [
 ]
 
 export const skills = {
-  "AI / ML":   ["LLMs", "LangChain", "PyTorch", "Hugging Face", "RAG pipelines"],
-  "Frontend":  ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-  "Backend":   ["Node.js", "FastAPI", "PostgreSQL", "Redis"],
-  "DevOps":    ["Docker", "GitHub Actions", "Vercel", "AWS"],
+  "AI / ML": [
+    "Python",
+    "Machine Learning Fundamentals",
+    "Computer Vision",
+    "OpenCV",
+    "NumPy",
+    "Pandas",
+    "Prompt Engineering",
+    "Generative AI Fundamentals",
+    "Deep Learning",
+    "TensorFlow / PyTorch",
+  ],
+  "Frontend": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React.js",
+    "Tailwind CSS",
+    "REST API Integration",
+    "UI/UX Fundamentals",
+  ],
+  "Backend": [
+    "Java",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "MySQL",
+    "MongoDB",
+  ],
+  "DevOps": [
+    "Git",
+    "GitHub",
+  ],
+  "Tools & Platforms": [
+    "Visual Studio Code",
+    "IntelliJ IDEA",
+    "Figma",
+    "SAP BTP",
+    "Jupyter Notebook",
+  ],
+  "Currently Learning": [
+    "SAP BTP",
+    "Advanced Machine Learning",
+    "Advanced NLP",
+  ],
 }
 
 export const experience = [

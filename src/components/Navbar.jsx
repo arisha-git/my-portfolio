@@ -40,7 +40,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <span className="font-display text-xl font-bold gradient-text">
-          {info.name.split(" ")[0]}.
+          {"AAK"}.
         </span>
 
         {/* Desktop Navigation */}

@@ -2,10 +2,12 @@ import { motion } from "framer-motion"
 import { skills } from "../data/content"
 
 const categoryColors = {
-  "AI / ML":  "border-violet-400/40 text-violet-400",
+  "AI / ML": "border-violet-400/40 text-violet-400",
   "Frontend": "border-purple-400/40 text-purple-400",
-  "Backend":  "border-fuchsia-400/40 text-fuchsia-400",
-  "DevOps":   "border-violet-300/40 text-violet-300",
+  "Backend": "border-fuchsia-400/40 text-fuchsia-400",
+  "DevOps": "border-violet-300/40 text-violet-300",
+  "Tools & Platforms": "border-purple-300/40 text-purple-300",
+  "Currently Learning": "border-fuchsia-300/40 text-fuchsia-300",
 }
 
 export default function Skills() {
@@ -20,7 +22,7 @@ export default function Skills() {
         What I <span className="gradient-text">know</span>
       </motion.h2>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {Object.entries(skills).map(([category, items], i) => (
           <motion.div
             key={category}

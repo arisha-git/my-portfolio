@@ -14,14 +14,14 @@ export default function About() {
           About <span className="gradient-text">me</span>
         </h2>
         <p className="text-zinc-400 leading-relaxed mb-4">
-          I'm a developer who sits at the intersection of AI and full-stack
-          engineering. I care deeply about building things that are both
-          technically sound and delightful to use.
+          Curiosity brought me into technology, and building keeps me here. <br></br>
+          <br></br>
+          I'm <b>Arisha</b>, a Computer Science student passionate about Artificial Intelligence, machine learning, and software development. 
+          I enjoy transforming ideas into meaningful products that solve real-world problems and create impactful user experiences.
         </p>
         <p className="text-zinc-400 leading-relaxed">
-          When I'm not shipping code, I'm reading research papers,
-          contributing to open source, or experimenting with new model
-          architectures.
+          Beyond coding, I thrive on continuous learning, collaboration, and exploring emerging technologies. 
+          Whether I'm developing AI-driven solutions, building web applications, or contributing to technical communities, I'm always looking for opportunities to create, innovate, and grow.
         </p>
       </motion.div>
     </section>
