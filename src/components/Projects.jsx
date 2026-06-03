@@ -11,7 +11,7 @@ export default function Projects() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false }}
       >
-        Selected <span className="gradient-text">work</span>
+        What I've <span className="gradient-text">built</span>
       </motion.h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
