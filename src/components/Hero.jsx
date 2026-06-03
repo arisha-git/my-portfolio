@@ -22,7 +22,7 @@ export default function Hero() {
         <h1 className="font-display text-6xl md:text-8xl font-black mb-6 leading-none">
           Hi, I'm{" "}
           <span className="gradient-text">
-            {info.name.split(" ")[0]}
+            {info.name.split("  ")}
           </span>
         </h1>
 
@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="flex gap-4 justify-center flex-wrap">
           <a
             href="#projects"
-            className="px-6 py-3 bg-gradient-to-r from-violet-600 to-cyan-500 rounded-full font-medium text-white hover:opacity-90 transition-opacity"
+            className="px-6 py-3 border border-violet-500 rounded-full font-medium text-violet-300 hover:bg-violet-600 hover:text-white transition-all duration-200"
           >
             See My Work
           </a>
@@ -42,7 +42,7 @@ export default function Hero() {
             href={info.github}
             target="_blank"
             rel="noreferrer"
-            className="px-6 py-3 bg-gradient-to-r from-violet-700 to-purple-500 rounded-full font-medium text-white hover:opacity-90 transition-opacity"
+            className="px-6 py-3 border border-violet-500 rounded-full text-violet-300 hover:bg-violet-600 hover:text-white transition-all duration-200 flex items-center gap-2"
           >
             <FiGithub size={16} />
             GitHub
