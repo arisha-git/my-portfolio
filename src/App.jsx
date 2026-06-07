@@ -22,7 +22,7 @@ export default function App() {
         <Contributions />
       </main>
       <footer className="text-center py-10 text-zinc-600 text-sm border-t border-zinc-900">
-        Designed and built by Arisha using React · Tailwind v4 · Framer Motion · 💜
+        Designed and built by Arisha💜
       </footer>
     </>
   )
