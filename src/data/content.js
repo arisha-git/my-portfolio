@@ -18,13 +18,13 @@ export const projects = [
     image: "/dyslexiease.png",
   },
   {
-    title: "Project Three",
-    description: "A third project to fill the grid nicely.",
-    tech: ["PyTorch", "LangChain", "Docker"],
-    github: "https://github.com/you/project3",
-    live: "",
+    title: "Reflexa",
+    description: "A smart survival guide designed to deliver instant, step-by-step emergency response instructions when every second matters.",
+    tech: ["React", "Vite", "Supabase"],
+    github: "https://github.com/arisha-git/Reflexa",
+    live: "https://reflexa-aid.lovable.app/",
     color: "from-fuchsia-600 to-violet-800",
-    image: "https://placehold.co/600x340/1a1025/a78bfa?text=Project+Three",
+    image: "/reflexa.png",
   },
 ]
 
