@@ -13,7 +13,7 @@ export const projects = [
     description: "A platform built to help individuals with dyslexia improve reading and learning through accessible and user-friendly tools.",
     tech: ["Python", "React", "TensorFlow"],
     github: "https://github.com/arisha-git/dyslexiease",
-    live: "",
+    live: "https://dyslexiease.vercel.app/",
     color: "from-purple-500 to-fuchsia-600",
     image: "/dyslexiease.png",
   },
