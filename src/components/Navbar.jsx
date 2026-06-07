@@ -27,7 +27,7 @@ export default function Navbar() {
     };
   }, []);
 
-  const links = ["About", "Skills","Projects", "Experience"];
+  const links = ["About", "Projects", "Skills", "Experience","Community"];
 
   return (
     <nav

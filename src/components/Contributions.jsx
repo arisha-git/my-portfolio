@@ -3,7 +3,7 @@ import { contributions } from "../data/content"
 
 export default function Contributions() {
   return (
-    <section id="contributions" className="py-28 px-6 max-w-6xl mx-auto">
+    <section id="community" className="py-28 px-6 max-w-6xl mx-auto">
       <motion.h2
         className="font-display text-5xl font-black mb-16 text-center"
         initial={{ opacity: 0, y: 20 }}
