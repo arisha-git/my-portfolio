@@ -103,7 +103,7 @@ export const contributions = [
         ],
       },
       {
-        title: "Tech Core Member",
+        title: "Tech (Computer Vision) Core Member",
         period: "Sep 2024 – May 2025 · 9 mos",
         bullets: [
           "Worked on AI and computer vision projects focused on image processing and machine learning applications.",
