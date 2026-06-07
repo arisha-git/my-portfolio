@@ -78,7 +78,7 @@ export const skills = {
 
 export const experience = [
   {
-    company: "Ezowa",
+    company: "Ezowa India Pvt. Ltd.",
     role: "AI Intern",
     period: "May 2026 – Present",
     bullets: [
