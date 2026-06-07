@@ -1,13 +1,14 @@
-import { motion } from "framer-motion";
-import { FiGithub, FiLinkedin, FiArrowDown } from "react-icons/fi";
-import { info } from "../data/info";
+import { motion } from "framer-motion"
+import { FiGithub, FiLinkedin, FiArrowDown, FiTwitter } from "react-icons/fi"
+import { SiLeetcode } from "react-icons/si"
+import { info } from "../data/info"
 
 export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 relative overflow-hidden">
       {/* Background glow blobs */}
-<div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-700/20 rounded-full blur-3xl pointer-events-none" />
-<div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-900/25 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-violet-700/20 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-900/25 rounded-full blur-3xl pointer-events-none" />
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
@@ -20,10 +21,7 @@ export default function Hero() {
         </p>
 
         <h1 className="font-display text-6xl md:text-8xl font-black mb-6 leading-none">
-          Hi, I'm{" "}
-          <span className="gradient-text">
-            {info.name.split("  ")}
-          </span>
+          Hi, I'm <span className="gradient-text">{info.name}</span>
         </h1>
 
         <p className="text-xl text-zinc-400 mb-10 max-w-xl mx-auto leading-relaxed">
@@ -31,13 +29,6 @@ export default function Hero() {
         </p>
 
         <div className="flex gap-4 justify-center flex-wrap">
-          <a
-            href="#projects"
-            className="px-6 py-3 border border-violet-500 rounded-full font-medium text-violet-300 hover:bg-violet-600 hover:text-white transition-all duration-200"
-          >
-            See My Work
-          </a>
-
           <a
             href={info.github}
             target="_blank"
@@ -52,11 +43,23 @@ export default function Hero() {
             href={info.linkedin}
             target="_blank"
             rel="noreferrer"
-            className="px-6 py-3 border border-violet-800 rounded-full text-violet-300 hover:border-violet-500 hover:text-white transition-all flex items-center gap-2"
+            className="px-6 py-3 border border-violet-500 rounded-full text-violet-300 hover:bg-violet-600 hover:text-white transition-all duration-200 flex items-center gap-2"
           >
             <FiLinkedin size={16} />
             LinkedIn
           </a>
+
+          <a
+            href={info.twitter}
+            target="_blank"
+            rel="noreferrer"
+            className="px-6 py-3 border border-violet-500 rounded-full text-violet-300 hover:bg-violet-600 hover:text-white transition-all duration-200 flex items-center gap-2"
+          >
+            <FiTwitter size={16} />
+            Twitter
+          </a>
+
+        
         </div>
       </motion.div>
 
@@ -67,5 +70,5 @@ export default function Hero() {
         <FiArrowDown size={22} />
       </a>
     </section>
-  );
+  )
 }

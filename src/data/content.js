@@ -6,6 +6,7 @@ export const projects = [
     github: "https://github.com/you/project",
     live: "https://yourproject.com",
     color: "from-violet-600 to-purple-400",
+    image: "https://placehold.co/600x340/1a1025/a78bfa?text=Project+One",
   },
   {
     title: "Project Two",
@@ -14,6 +15,7 @@ export const projects = [
     github: "https://github.com/you/project2",
     live: "",
     color: "from-purple-500 to-fuchsia-600",
+    image: "https://placehold.co/600x340/1a1025/a78bfa?text=Project+Two",
   },
   {
     title: "Project Three",
@@ -22,6 +24,7 @@ export const projects = [
     github: "https://github.com/you/project3",
     live: "",
     color: "from-fuchsia-600 to-violet-800",
+    image: "https://placehold.co/600x340/1a1025/a78bfa?text=Project+Three",
   },
 ]
 
@@ -75,22 +78,52 @@ export const skills = {
 
 export const experience = [
   {
-    company: "Company Name",
-    role: "Software Engineer",
-    period: "2023 – Present",
+    company: "Ezowa",
+    role: "AI Intern",
+    period: "May 2026 – Present",
     bullets: [
-      "Built X that improved Y by Z%",
-      "Led a team of N engineers to ship feature W",
-      "Reduced latency by X ms by doing Y",
+      "• Working on the frontend of internal apps using modern web technologies",
+      "• Suggesting and prototyping AI feature implementations across products",
+      "• Learning and adapting to different tech stacks as per project requirements",
+    ],
+  },
+]
+
+export const contributions = [
+  {
+    org: "Artificial Intelligence Society, Bennett University",
+    period: "Sep 2024 – Apr 2026 · 1 yr 6 mos",
+    roles: [
+      {
+        title: "Advisor",
+        period: "Aug 2025 – Apr 2026 · 9 mos",
+        bullets: [
+          "Advised members and guided technical projects within the society.",
+          "Mentored junior members on machine learning concepts and project execution",
+        ],
+      },
+      {
+        title: "Tech Core Member",
+        period: "Sep 2024 – May 2025 · 9 mos",
+        bullets: [
+          "Worked on AI and computer vision projects focused on image processing and machine learning applications.",
+          "Collaborated with team members to research, develop, and implement innovative technical solutions.",
+        ],
+      },
     ],
   },
   {
-    company: "Another Company",
-    role: "Junior Developer",
-    period: "2021 – 2023",
-    bullets: [
-      "Worked on X using Y",
-      "Contributed to open source project Z",
+    org: "CSI, Bennett University",
+    period: "Sep 2024 – Aug 2025 · 1 yr",
+    roles: [
+      {
+        title: "Tech Core Member",
+        period: "Sep 2024 – Aug 2025 · 1 yr",
+        bullets: [
+          "Contributed to technical events and Hackaccino organized by the chapter",
+          "Collaborated with peers on full-stack and software development projects",
+        ],
+      },
     ],
   },
 ]
