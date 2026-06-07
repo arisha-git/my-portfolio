@@ -2,6 +2,8 @@
 
 @import "tailwindcss";
 
+* { cursor: none; }
+
 @theme {
   --font-sans: "DM Sans", sans-serif;
   --font-display: "Syne", sans-serif;
